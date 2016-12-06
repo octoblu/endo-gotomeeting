@@ -1,0 +1,6 @@
+{
+  angular: [
+    { key: 'data.startDate' }
+    { key: 'data.endDate'}
+  ]
+}
