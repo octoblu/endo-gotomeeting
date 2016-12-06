@@ -49,7 +49,7 @@
     "meshblu-encryption": "^1.0.3",
     "morgan": "^1.6.1",
     "passport": "^0.3.2",
-    "passport-citrix": "^2.0.0",
+    "passport-citrix": "^2.0.1",
     "passport-octoblu": "^2.0.1"
   },
   "peerDependencies": {},
