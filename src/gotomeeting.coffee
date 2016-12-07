@@ -14,6 +14,7 @@ class GotoMeeting
     @options.qs = qs if qs?
     @options.body = body if body?
     @options.uri = path
+    @options.json = true
 
     request @options, callback
 
