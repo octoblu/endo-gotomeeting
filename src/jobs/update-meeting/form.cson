@@ -1,0 +1,11 @@
+{
+  angular: [
+    'data.meetingId'
+    'data.subject'
+    'data.starttime'
+    'data.endtime'
+    'data.passwordrequired'
+    'data.conferencecallinfo'
+    'data.meetingtype'
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  type: 'object'
+  title: 'Update Meeting'
+  'x-group-name': 'Meetings'
+  required: ['data']
+  properties:
+    data:
+      type: 'object'
+      properties:
+        meetingId:
+          type: 'string'
+          title: 'Meeting ID'
+        subject:
+          type: 'string'
+          title: 'Subject'
+        starttime:
+          type: 'string'
+          title: 'Start Time'
+          default: '2016-12-07T20:00:00Z'
+        endtime:
+          type: 'string'
+          title: 'End Time'
+          default: '2016-12-07T21:00:00Z'
+        passwordrequired:
+          type: 'booleon'
+          title: 'Password Required?'
+          default: false
+        conferencecallinfo:
+          type: 'string'
+          title: 'Conference Call Info'
+          enum: [
+            'PSTN'
+            'Free'
+            'Hybrid'
+            'Private'
+            'VoIP'
+          ]
+        meetingtype:
+          type: 'string'
+          title: 'Meeting Type'
+          enum: [
+            'immediate'
+            'recurring'
+            'scheduled'
+          ]
+}
