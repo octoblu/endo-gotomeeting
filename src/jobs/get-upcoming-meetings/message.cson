@@ -1,0 +1,6 @@
+{
+  type: 'object'
+  title: 'Get Upcoming Meetings'
+  'x-group-name': 'Meetings'
+  required: ['data']
+}
